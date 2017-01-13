@@ -16,4 +16,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <ImageButton
+        android:id="@+id/ibButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/tvHello"
+        android:background="@mipmap/ic_launcher"
+        />
 </RelativeLayout>
